@@ -1,0 +1,5 @@
+pip install pandas
+pip install matplotlib
+pip install numpy
+pip install transformers
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
