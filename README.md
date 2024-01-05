@@ -9,15 +9,3 @@ Requirements
 - Transformers library by Hugging Face
 - Other dependencies (specified in `requirements.txt`)
 
-Text Generation
-Load the trained model and tokenizer:
-
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
-
-model = GPT2LMHeadModel.from_pretrained("path/to/your/fine-tuned/model")
-tokenizer = GPT2Tokenizer.from_pretrained("path/to/your/fine-tuned/tokenizer")
-
-Use the writer_ai function for text generation:
-
-from generate_text import writer_ai
-writer_ai(model, device="cuda", tokenizer=tokenizer)
